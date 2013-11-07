@@ -1,0 +1,47 @@
+Nuestra web: CSS
+
+Vamos a modificar un poco nuestro fichero index.html para acomodar un par de cabios en la página.
+Lo primero que hay que hacer es crear el fichero donde escribiremos todas nuestras reglas CSS. Crear un nuevo archivo que se llame estilo.css y guardarlo junto a index.html. 
+Para incluir hacer que nuestra página tome los estilos que definamos dentro del archivo tendremos que añadir la siguiente linea dentro de la etiqueta <head>:
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+Ademas vamos a añadir un item nuevo a nuestra lista y a ponerle dos clases a los que ya existen:
+
+    <ul>
+        <li class="done">Hacer la estructura de la página</li>
+        <li class="doing">Darle un estilo</li>
+        <li>Hacerla interactiva</li>
+    </ul>
+
+Las clases representan tareas ya hechas y tareas que se están haciendo.
+Esto está muy bien, pero para que cambie algo vamos a tener que escribir alguna regla CSS. De momento esto va a ser sencillo, así que solo he creado cuatro reglas:
+
+	h1 {
+		text-align: center;
+		text-decoration: underline;
+	}
+
+	.done {
+		text-decoration: line-through;
+		color: green;
+	}
+
+	.doing {
+		color: orange;
+		font-weight: bold;
+	}
+
+	ul {
+		width: 300px;
+		margin: auto;
+	}
+
+Madre mia, cuantas cosas nuevas! Vayamos poco a poco:
+	La primera regla coje todos los h1 de la página, centra su texto y les añade un subrayado.
+	La segunda aplica un tachado a todos los items con la clase done y les pone el texto (la regla color hace referencia al color del texto, no al del fondo como background-color) de color verde.
+	La tercera pone los items en curso de color naranja y los pone en negrita.
+	La última regla establece que las listas tendran un ancho de 300px, y que ademas tendrán un margen automático a ambos lados, lo que hará que estén centrados. Esto no hace referencia al texto en si mismo, este segura estando alineado a la izquierda, sino que será el bloque entero el que estará centrado.
+Bueno, con esto nuestra página ya toa un poco mas de forma, aunque si he de ser sincero no es una forma muy bonita que digamos. Más adelante le daremos un estilo mas cuidado.
+
+Saludos.

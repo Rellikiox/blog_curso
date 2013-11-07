@@ -1,0 +1,29 @@
+Aqui vamos a ver la estructura básica de HTML que va a tener nuestra página. Según avancen las lecciones esta estructura ira cambiando para admitir todas las cosas nuevas que iremos haciendo. La estructura es:
+
+<html>
+    <head>
+        <title>Mis tareas</title>
+    </head>
+    <body>
+        <h1>Mis tareas</h1>
+        <ul>
+            <li>Hacer la estructura de la página</li>
+            <li>Darle un estilo</li>
+        </ul>
+    </body>
+</html>
+
+Aquí podemos ver una gran cantidad de etiquetas, vamos a empezar de arriba a abajo:
+
+<html>: esta etiqueta engloba todo el contenido de la página, y lo que nos indica es que lo que nos vamos a encontrar dentro es código HTML.
+<head>: esto contendrá la cabecera de la página, pero no la cabecera que nosotros podemos ver, sino una cabecera oculta que contiene cosas como el titulo de la pagina, el idioma en que esta escrita, palabras clave, etc.
+<title>: este es el titulo de la página, aparecerá en la ventana del navegador.
+<body>: esta etiqueta contiene el código HTML de la página que el usuario va a ver.
+<h1>: esta es una etiqueta de encabezado, nos permite por títulos a distintas secciones de la página. Hay desde h1 hasta h6, siendo h1 el mas importante y h6 en menos importante.
+<ul>: define una lista no ordenada, es decir, una lista sin números antes de cada item.
+<li>: representa un item de la lista. Para poder tener una lista nos hacen falta un <ul> y al menos un <li>.
+Te recomiendo que copies ese código, lo pegues en un fichero de texto (ábrelo con el notepad por ejemplo), guárdalo como index.html (seleccionando 'Todos los archivos', si no te lo guardará como index.html.txt) y arrastralo a tu navegador. Enhorabuena! Acabas de hacer tu primera página web.
+
+En la proxima entrada intentaremos darle un poco de estilo a nuestra página.
+
+Saludos.

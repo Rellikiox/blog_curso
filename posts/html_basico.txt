@@ -1,0 +1,17 @@
+Bueno, con esto ya entramos en materia.
+
+Hoy os voy a hablar sobre el HTML, sobre lo que es y, más importante, como usarlo.
+
+Como ya dije en la introducción, el HTML nos permite estructurar una página web, e indicar cual es la esra jerárquica de los contenidos. HTML esta formado por "etiquetas" que definen todo lo que esta contenido dentro de ellas. Si queremos indicar que un texto es un párrafo tendríamos que hacer lo siguiente: 
+
+<p>Esto es un párrafo.</p>
+
+Esto nos permite indicar claramente que es cada cosa en nuestra página: desde listas (ordenadas con <ol> o desordenadas con <ul>) hasta la cabecera de la página (con la etiqueta <header>).
+
+La estructura basica de una página se divide en dos secciones (<head> y <body>) encapsuladas en una mas grande (llamada <html>). Dentro de la etiqueta <head> encontraremos cosas como el título de la página y varios detalles que no se muestran al usuario, como la configuración de idioma o algunas palabras clave. Dentro de esta etiqueta tambien se indican los ficheros de CSS y Javascript que se explicacrán mas adelante. 
+
+Dentro de la etiqueta <body> encontraremos todo el código que si que verá el usuario. Esto incluye los titulos de las distintas secciones que puede tener la página, los menús y todo el contenido.
+
+De momento esto es todo. En la siguiente entrada veremos la estructura básica de la página que vamos a ir haciendo, así como el funcionamiento de algunas otras etiquetas.
+
+Saludos!

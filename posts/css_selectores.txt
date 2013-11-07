@@ -1,0 +1,15 @@
+Como ya hemos comentado, el CSS se utiliza para dar estilo a la página, pero ¿Que significa esto? Lo que hacemos es indicar el aspecto, tamaño color y estilo de los elementos de que hemos creado con el HTML. Para hacer esto hacemos uso de lo que se conoce como selectores. 
+Un selector es un pequeño texto que hace referencia a un elemento (o un conjunto de elementos) de HTML. Este selector va acompañado de una serie de reglas que son las que marcan el estilo del elemento. Veamos un ejemplo:
+
+p {
+	background-color: red;
+}
+
+La primera parte, la p, nos indica que las reglas contenidas entre las llaves se van a aplicar a todos los elementos de HTML con la etiqueta <p>. La regla que hay indica que todos los elementos a los que se le aplica esta regla tendran el fondo de color rojo.
+
+Hay tres tipos básicos de selectores:
+Por etiqueta: como en el ejemplo, estos son aquellos que consisten en el nombre de una etiqueta de HTML. Para usarlos solo hay poner el nombre de la etiqueta que queramos modificar.
+Por identificador: en HTML podemos añadir una serie de atributos a las etiquetas, entre ellos se encuentra el identificador, que deberia ser único dentro de una misma página. Un elemento HTML con id tiene la siguiente pinta: <p id="primer-parrafo"></p>. Para usar selectores por id tenemos que poner una almohadilla (#) antes del nombre dle identificador: #primer-parrafo.
+Por clase: otro atributo común en HTMLe s la clase. A diferencia del id, la clase no tiene por que ser única, es muy comun que varias etiquetas tengan la misma clase. Un ejemplo de esto: <p class="parrafos-azules"></p>. Para hacer referencia a una clase en CSS deberemos poner un punto (.) antes del nombre de la clase: .parrafos-azules.
+
+De momento eso es todo. En la siguiente entrada veremos las distintas reglas que pueden ser aplicadas.

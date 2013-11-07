@@ -1,0 +1,22 @@
+En la entrada anterior vimos como seleccionar a que elementos queremos aplicar nuestras reglas, pero no vimos nada sobre las própias reglas. Esto no puede quedar así, sigue leyendo!
+
+Reglas CSS
+Las reglas de CSS se componen de dos elementos: el identificador de la regla (es decir, que regla estamos aplicando) y los valores que tomará. Cada regla puede tomar un rango de valores distintos, algunas solo admiten un valor de una lista fija, mientras que otras admiten valores en forma de números. Veamos un ejemplo:
+
+.parrafos-azules {
+	background-color: blue;
+	font-size: 2em;
+}
+
+Este trozo de CSS esta haciendo lo siguiente: 
+Coje todos los elementos de HTML que tengan la clase "parrafos-azules. Tened en cuenta que esto no quiere decir que los elementos tengan que ser párrafos, cualquier elemento con esta clase será selccionado.
+Pon su fondo de color azul. CSS nos permite indicar de forma sencilla un pequeño rango de colores. Para ello pone a nuestra disposición palabras clave como blue, red, yellow, black, etc. Si queremos un colo más sencillo tendremos que indicarlo mediante sus valores RGB (una explicación breve de lo que es el RGB un poco más abajo).
+Por último, haz que el tamaño de la letra dentro de estos elementos sea el doble de lo habitual. Las letras em indican que el tipo de valor que estamos indicando. Las medidas en CSS pueden ser en formato em, donde 1 es el de por defecto, en pixeles, o px, con  lo que indicaremos la cantidad de pixeles en pantalla que queremos que ocupe, o con porcentajes, indicado con un %. En el caso del texto el porcentaje suele ser sustituido por em, ya que representan los mismo.
+
+Intermisión: ¿Que es el RGB?
+El RGB es una forma de representar cualquier color dentro de la gama de colores que nos ofrece. Para ello tendrems que indicar los valores de rojo, verde y azul (Red, Green y Blue en inglés, de ahí las siglas). El rango de los valores va de 0 a 255. Por ejemplo, si queremos indicar un rojo puro en CSS lo que haremos es rgb(255,0,0), mientras que un amarillo será rgb(255,255,0). Daros cuenta que esto son colores lumínicos, no pigmentarios.
+
+Volvemos a la programación habitual
+Aunque no mucho, ya que esta entrada está a punto de acabar. Esto es todo en esta entrada. Te animo a que intentes experimentar con la página que ya tenemos creada (enlace) y que investigues que otras reglas CSS hay y como se usan. Si no te ves capacitado no te preocupes, en la siguiente entrada aplicaremos nuestros conocimientos recien adquiridos sobre CSS a la página en HTML que hemos creado.
+
+Hasta la próxima!
