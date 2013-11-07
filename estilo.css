@@ -1,0 +1,19 @@
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.done {
+	text-decoration: line-through;
+	color: green;
+}
+
+.doing {
+	color: orange;
+	font-weight: bold;
+}
+
+ul {
+	width: 300px;
+	margin: auto;
+}
